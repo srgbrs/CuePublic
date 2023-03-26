@@ -74,6 +74,15 @@
         }
       },
       {
+        "package": "Hero",
+        "repositoryURL": "https://github.com/HeroTransitions/Hero.git",
+        "state": {
+          "branch": null,
+          "revision": "efa709686035831b23b7bf58f652b0c4b892aa1d",
+          "version": "1.6.1"
+        }
+      },
+      {
         "package": "leveldb",
         "repositoryURL": "https://github.com/firebase/leveldb.git",
         "state": {
@@ -101,12 +110,39 @@
         }
       },
       {
+        "package": "RealmCore",
+        "repositoryURL": "https://github.com/realm/realm-core",
+        "state": {
+          "branch": null,
+          "revision": "c29f4347aff5d1f61f7672c05ebf1bfbc1d44d25",
+          "version": "10.0.0"
+        }
+      },
+      {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-swift.git",
+        "state": {
+          "branch": null,
+          "revision": "49a9f3474a255b9cf188754c91409d11b4877d7b",
+          "version": "10.0.0"
+        }
+      },
+      {
         "package": "SwiftProtobuf",
         "repositoryURL": "https://github.com/apple/swift-protobuf.git",
         "state": {
           "branch": null,
           "revision": "e1499bc69b9040b29184f7f2996f7bab467c1639",
           "version": "1.19.0"
+        }
+      },
+      {
+        "package": "InstantSearchVoiceOverlay",
+        "repositoryURL": "https://github.com/algolia/voice-overlay-ios",
+        "state": {
+          "branch": null,
+          "revision": "55a1047be9e0d9e4d4295ef127cc31b3ef7b8b54",
+          "version": "1.2.0"
         }
       }
     ]

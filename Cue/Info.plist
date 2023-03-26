@@ -22,6 +22,17 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Inter-Regular.ttf</string>
+		<string>Jost-Regular.ttf</string>
+		<string>Jost-Bold.ttf</string>
+		<string>Inter-ExtraBold.otf</string>
+		<string>HappyMonkey-Regular.ttf</string>
+		<string>Inter-Medium.otf</string>
+		<string>Inter-Bold.otf</string>
+		<string>FontsFree-Net-SFProText-Medium.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -54,8 +65,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -64,5 +73,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Please allow access</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Please allow speech recognition</string>
 </dict>
 </plist>

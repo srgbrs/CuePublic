@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181AB74C285F4205009B6DDC /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 181AB74B285F4205009B6DDC /* Realm */; };
+		181AB74E285F4205009B6DDC /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 181AB74D285F4205009B6DDC /* RealmSwift */; };
+		181AB7522863B2B6009B6DDC /* SoundTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181AB7512863B2B6009B6DDC /* SoundTestViewController.swift */; };
+		181AB7572863B94B009B6DDC /* InstantSearchVoiceOverlay in Frameworks */ = {isa = PBXBuildFile; productRef = 181AB7562863B94B009B6DDC /* InstantSearchVoiceOverlay */; };
 		1825E168281C10440071E6B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1825E167281C10440071E6B6 /* GoogleService-Info.plist */; };
 		1825E16E281C11C70071E6B6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1825E16D281C11C70071E6B6 /* FirebaseFirestore */; };
 		1825E170281C11C70071E6B6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 1825E16F281C11C70071E6B6 /* FirebaseDatabase */; };
@@ -15,6 +19,11 @@
 		1825E176281C11C70071E6B6 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 1825E175281C11C70071E6B6 /* FirebaseRemoteConfig */; };
 		1825E178281C11C70071E6B6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1825E177281C11C70071E6B6 /* FirebaseAuth */; };
 		1825E17A281C11C70071E6B6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 1825E179281C11C70071E6B6 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		182EAFEE283D5EF800CB8B5E /* GrammarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EAFED283D5EF800CB8B5E /* GrammarViewController.swift */; };
+		182EAFF3283D5F7E00CB8B5E /* GrammarModuleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EAFF2283D5F7E00CB8B5E /* GrammarModuleTableViewCell.swift */; };
+		18308DB8281D808E009D6EAB /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18308DB7281D808E009D6EAB /* EntryViewController.swift */; };
+		18308DBD281D8482009D6EAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18308DBC281D8482009D6EAB /* LoginViewController.swift */; };
+		18308DC2281D8521009D6EAB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18308DC1281D8521009D6EAB /* ResultViewController.swift */; };
 		18317EBA28147DA100834497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18317EB928147DA100834497 /* AppDelegate.swift */; };
 		18317EBC28147DA100834497 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18317EBB28147DA100834497 /* SceneDelegate.swift */; };
 		18317EBE28147DA100834497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18317EBD28147DA100834497 /* ViewController.swift */; };
@@ -24,6 +33,28 @@
 		18317EC928147DAB00834497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18317EC728147DAB00834497 /* LaunchScreen.storyboard */; };
 		18317ED428147DAC00834497 /* CueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18317ED328147DAC00834497 /* CueTests.swift */; };
 		18317EDF28147DAC00834497 /* CueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18317EDE28147DAC00834497 /* CueUITests.swift */; };
+		184DFCE62837C2F4006D11DF /* Inter-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 184DFCE52837C2F4006D11DF /* Inter-ExtraBold.otf */; };
+		185D3CDB2837C66100AB9995 /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 185D3CDA2837C66100AB9995 /* Inter-Medium.otf */; };
+		187CA216285C582E001C8D96 /* TightButtonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CA215285C582E001C8D96 /* TightButtonsCollectionViewCell.swift */; };
+		187CA21B285C7129001C8D96 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CA21A285C7129001C8D96 /* TabBarController.swift */; };
+		187CA221285C85F0001C8D96 /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = 187CA220285C85F0001C8D96 /* Hero */; };
+		187CA222285C85F0001C8D96 /* Hero in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 187CA220285C85F0001C8D96 /* Hero */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		189C795C2826F12300CD4488 /* Jost-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189C795B2826F12300CD4488 /* Jost-Bold.ttf */; };
+		189C79612826F12D00CD4488 /* Jost-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189C79602826F12D00CD4488 /* Jost-Regular.ttf */; };
+		189C79662826F14000CD4488 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189C79652826F14000CD4488 /* Inter-Regular.ttf */; };
+		189F3BC92837B5B300338EBF /* HappyMonkey-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189F3BC82837B5B300338EBF /* HappyMonkey-Regular.ttf */; };
+		18A5B4F12837C7EA009720AE /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18A5B4F02837C7EA009720AE /* Inter-Bold.otf */; };
+		18AE15FA28646A4200EFF701 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE15F928646A4200EFF701 /* SoundViewController.swift */; };
+		18AFDCF92845060900632404 /* FontsFree-Net-SFProText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AFDCF82845060900632404 /* FontsFree-Net-SFProText-Medium.ttf */; };
+		18AFDCFE2845084400632404 /* TrainingMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFDCFD2845084400632404 /* TrainingMenuViewController.swift */; };
+		18AFDD03284508B400632404 /* WideButtonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFDD02284508B400632404 /* WideButtonsCollectionViewCell.swift */; };
+		18B2124C2843FEEA00833DCB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2124A2843FEEA00833DCB /* ProfileViewController.swift */; };
+		18B2124D2843FEEA00833DCB /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B2124B2843FEEA00833DCB /* ProfileViewController.xib */; };
+		18C0C7F0283B79DE00E4130C /* VocabularyWordsSetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C7EF283B79DE00E4130C /* VocabularyWordsSetTableViewCell.swift */; };
+		18C0C7F5283B7A9100E4130C /* VocabularyWordsSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C7F4283B7A9100E4130C /* VocabularyWordsSetViewController.swift */; };
+		18C0C7FA283B84C600E4130C /* DetailedWordViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C7F9283B84C600E4130C /* DetailedWordViewViewController.swift */; };
+		18C0C7FF283B85C300E4130C /* DetailedWordViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C7FE283B85C300E4130C /* DetailedWordViewCollectionViewCell.swift */; };
+		18E077192826F381003F8350 /* RegularTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E077182826F381003F8350 /* RegularTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +74,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		187CA223285C85F0001C8D96 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				187CA222285C85F0001C8D96 /* Hero in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		181AB7512863B2B6009B6DDC /* SoundTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SoundTestViewController.swift; path = Resources/SoundTestViewController.swift; sourceTree = "<group>"; };
 		1825E167281C10440071E6B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		182EAFED283D5EF800CB8B5E /* GrammarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarViewController.swift; sourceTree = "<group>"; };
+		182EAFF2283D5F7E00CB8B5E /* GrammarModuleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarModuleTableViewCell.swift; sourceTree = "<group>"; };
+		18308DB7281D808E009D6EAB /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		18308DBC281D8482009D6EAB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18308DC1281D8521009D6EAB /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		18317EB628147DA100834497 /* Cue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18317EB928147DA100834497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18317EBB28147DA100834497 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +111,26 @@
 		18317EDA28147DAC00834497 /* CueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18317EDE28147DAC00834497 /* CueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CueUITests.swift; sourceTree = "<group>"; };
 		18317EE028147DAC00834497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184DFCE52837C2F4006D11DF /* Inter-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.otf"; sourceTree = "<group>"; };
+		185D3CDA2837C66100AB9995 /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.otf"; sourceTree = "<group>"; };
+		187CA215285C582E001C8D96 /* TightButtonsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TightButtonsCollectionViewCell.swift; sourceTree = "<group>"; };
+		187CA21A285C7129001C8D96 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		189C795B2826F12300CD4488 /* Jost-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-Bold.ttf"; sourceTree = "<group>"; };
+		189C79602826F12D00CD4488 /* Jost-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-Regular.ttf"; sourceTree = "<group>"; };
+		189C79652826F14000CD4488 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		189F3BC82837B5B300338EBF /* HappyMonkey-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HappyMonkey-Regular.ttf"; sourceTree = "<group>"; };
+		18A5B4F02837C7EA009720AE /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
+		18AE15F928646A4200EFF701 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SoundViewController.swift; path = Cue/SoundViewController.swift; sourceTree = SOURCE_ROOT; };
+		18AFDCF82845060900632404 /* FontsFree-Net-SFProText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-SFProText-Medium.ttf"; sourceTree = "<group>"; };
+		18AFDCFD2845084400632404 /* TrainingMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingMenuViewController.swift; sourceTree = "<group>"; };
+		18AFDD02284508B400632404 /* WideButtonsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WideButtonsCollectionViewCell.swift; sourceTree = "<group>"; };
+		18B2124A2843FEEA00833DCB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		18B2124B2843FEEA00833DCB /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		18C0C7EF283B79DE00E4130C /* VocabularyWordsSetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWordsSetTableViewCell.swift; sourceTree = "<group>"; };
+		18C0C7F4283B7A9100E4130C /* VocabularyWordsSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWordsSetViewController.swift; sourceTree = "<group>"; };
+		18C0C7F9283B84C600E4130C /* DetailedWordViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedWordViewViewController.swift; sourceTree = "<group>"; };
+		18C0C7FE283B85C300E4130C /* DetailedWordViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedWordViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		18E077182826F381003F8350 /* RegularTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +140,14 @@
 			files = (
 				1825E170281C11C70071E6B6 /* FirebaseDatabase in Frameworks */,
 				1825E178281C11C70071E6B6 /* FirebaseAuth in Frameworks */,
+				187CA221285C85F0001C8D96 /* Hero in Frameworks */,
+				181AB7572863B94B009B6DDC /* InstantSearchVoiceOverlay in Frameworks */,
 				1825E174281C11C70071E6B6 /* FirebaseStorage in Frameworks */,
 				1825E172281C11C70071E6B6 /* FirebaseAuthCombine-Community in Frameworks */,
 				1825E17A281C11C70071E6B6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				181AB74C285F4205009B6DDC /* Realm in Frameworks */,
 				1825E16E281C11C70071E6B6 /* FirebaseFirestore in Frameworks */,
+				181AB74E285F4205009B6DDC /* RealmSwift in Frameworks */,
 				1825E176281C11C70071E6B6 /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +172,7 @@
 		18317EAD28147DA100834497 = {
 			isa = PBXGroup;
 			children = (
+				187CA215285C582E001C8D96 /* TightButtonsCollectionViewCell.swift */,
 				18317EB828147DA100834497 /* Cue */,
 				18317ED228147DAC00834497 /* CueTests */,
 				18317EDD28147DAC00834497 /* CueUITests */,
@@ -117,11 +193,18 @@
 		18317EB828147DA100834497 /* Cue */ = {
 			isa = PBXGroup;
 			children = (
-				18317EB928147DA100834497 /* AppDelegate.swift */,
-				18317EBB28147DA100834497 /* SceneDelegate.swift */,
+				181AB7512863B2B6009B6DDC /* SoundTestViewController.swift */,
+				187CA22A285CCA3E001C8D96 /* Grammar Module */,
+				189C795A2826F10300CD4488 /* fonts */,
+				187CA236285CCA95001C8D96 /* Delegates */,
 				18317EBD28147DA100834497 /* ViewController.swift */,
-				18317EBF28147DA100834497 /* Main.storyboard */,
-				18317EC528147DAB00834497 /* Assets.xcassets */,
+				187CA239285CCAC3001C8D96 /* Resources */,
+				187CA21A285C7129001C8D96 /* TabBarController.swift */,
+				187CA22D285CCA57001C8D96 /* Training Module */,
+				18AFDD02284508B400632404 /* WideButtonsCollectionViewCell.swift */,
+				18B212512843FEF600833DCB /* Profile Module */,
+				187CA230285CCA72001C8D96 /* Vocabulary Module */,
+				187CA233285CCA84001C8D96 /* Log In Module */,
 				18317EC728147DAB00834497 /* LaunchScreen.storyboard */,
 				18317ECA28147DAB00834497 /* Info.plist */,
 				1825E167281C10440071E6B6 /* GoogleService-Info.plist */,
@@ -148,6 +231,104 @@
 			path = CueUITests;
 			sourceTree = "<group>";
 		};
+		187CA22A285CCA3E001C8D96 /* Grammar Module */ = {
+			isa = PBXGroup;
+			children = (
+				182EAFED283D5EF800CB8B5E /* GrammarViewController.swift */,
+				182EAFF2283D5F7E00CB8B5E /* GrammarModuleTableViewCell.swift */,
+			);
+			path = "Grammar Module";
+			sourceTree = "<group>";
+		};
+		187CA22D285CCA57001C8D96 /* Training Module */ = {
+			isa = PBXGroup;
+			children = (
+				18AFDCFD2845084400632404 /* TrainingMenuViewController.swift */,
+				18E077182826F381003F8350 /* RegularTestViewController.swift */,
+			);
+			path = "Training Module";
+			sourceTree = "<group>";
+		};
+		187CA230285CCA72001C8D96 /* Vocabulary Module */ = {
+			isa = PBXGroup;
+			children = (
+				18C0C7FE283B85C300E4130C /* DetailedWordViewCollectionViewCell.swift */,
+				18C0C7F9283B84C600E4130C /* DetailedWordViewViewController.swift */,
+				18C0C7F4283B7A9100E4130C /* VocabularyWordsSetViewController.swift */,
+				18C0C7EF283B79DE00E4130C /* VocabularyWordsSetTableViewCell.swift */,
+			);
+			path = "Vocabulary Module";
+			sourceTree = "<group>";
+		};
+		187CA233285CCA84001C8D96 /* Log In Module */ = {
+			isa = PBXGroup;
+			children = (
+				18308DBC281D8482009D6EAB /* LoginViewController.swift */,
+				18308DC1281D8521009D6EAB /* ResultViewController.swift */,
+				18308DB7281D808E009D6EAB /* EntryViewController.swift */,
+			);
+			path = "Log In Module";
+			sourceTree = "<group>";
+		};
+		187CA236285CCA95001C8D96 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				18317EB928147DA100834497 /* AppDelegate.swift */,
+				18317EBB28147DA100834497 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		187CA239285CCAC3001C8D96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18AE15F6286456D800EFF701 /* mp3 */,
+				18317EBF28147DA100834497 /* Main.storyboard */,
+				18AE15F928646A4200EFF701 /* SoundViewController.swift */,
+				18317EC528147DAB00834497 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		189C795A2826F10300CD4488 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				189C79652826F14000CD4488 /* Inter-Regular.ttf */,
+				185D3CDA2837C66100AB9995 /* Inter-Medium.otf */,
+				189C79602826F12D00CD4488 /* Jost-Regular.ttf */,
+				189F3BC82837B5B300338EBF /* HappyMonkey-Regular.ttf */,
+				18A5B4F02837C7EA009720AE /* Inter-Bold.otf */,
+				184DFCE52837C2F4006D11DF /* Inter-ExtraBold.otf */,
+				189C795B2826F12300CD4488 /* Jost-Bold.ttf */,
+				18AFDCF82845060900632404 /* FontsFree-Net-SFProText-Medium.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		18AE15F6286456D800EFF701 /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mp3;
+			sourceTree = "<group>";
+		};
+		18B212512843FEF600833DCB /* Profile Module */ = {
+			isa = PBXGroup;
+			children = (
+				18B2124A2843FEEA00833DCB /* ProfileViewController.swift */,
+				18B212552843FF0500833DCB /* Profile Module Views */,
+			);
+			path = "Profile Module";
+			sourceTree = "<group>";
+		};
+		18B212552843FF0500833DCB /* Profile Module Views */ = {
+			isa = PBXGroup;
+			children = (
+				18B2124B2843FEEA00833DCB /* ProfileViewController.xib */,
+			);
+			path = "Profile Module Views";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,6 +339,7 @@
 				18317EB228147DA100834497 /* Sources */,
 				18317EB328147DA100834497 /* Frameworks */,
 				18317EB428147DA100834497 /* Resources */,
+				187CA223285C85F0001C8D96 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +354,10 @@
 				1825E175281C11C70071E6B6 /* FirebaseRemoteConfig */,
 				1825E177281C11C70071E6B6 /* FirebaseAuth */,
 				1825E179281C11C70071E6B6 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				187CA220285C85F0001C8D96 /* Hero */,
+				181AB74B285F4205009B6DDC /* Realm */,
+				181AB74D285F4205009B6DDC /* RealmSwift */,
+				181AB7562863B94B009B6DDC /* InstantSearchVoiceOverlay */,
 			);
 			productName = Cue;
 			productReference = 18317EB628147DA100834497 /* Cue.app */;
@@ -246,6 +432,9 @@
 			mainGroup = 18317EAD28147DA100834497;
 			packageReferences = (
 				1825E16C281C11C70071E6B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				187CA21F285C85F0001C8D96 /* XCRemoteSwiftPackageReference "Hero" */,
+				181AB74A285F4205009B6DDC /* XCRemoteSwiftPackageReference "realm-swift" */,
+				181AB7552863B94A009B6DDC /* XCRemoteSwiftPackageReference "voice-overlay-ios" */,
 			);
 			productRefGroup = 18317EB728147DA100834497 /* Products */;
 			projectDirPath = "";
@@ -264,9 +453,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				18317EC928147DAB00834497 /* LaunchScreen.storyboard in Resources */,
+				18AFDCF92845060900632404 /* FontsFree-Net-SFProText-Medium.ttf in Resources */,
 				1825E168281C10440071E6B6 /* GoogleService-Info.plist in Resources */,
+				189C795C2826F12300CD4488 /* Jost-Bold.ttf in Resources */,
+				185D3CDB2837C66100AB9995 /* Inter-Medium.otf in Resources */,
 				18317EC628147DAB00834497 /* Assets.xcassets in Resources */,
 				18317EC128147DA100834497 /* Main.storyboard in Resources */,
+				18B2124D2843FEEA00833DCB /* ProfileViewController.xib in Resources */,
+				18A5B4F12837C7EA009720AE /* Inter-Bold.otf in Resources */,
+				184DFCE62837C2F4006D11DF /* Inter-ExtraBold.otf in Resources */,
+				189C79612826F12D00CD4488 /* Jost-Regular.ttf in Resources */,
+				189C79662826F14000CD4488 /* Inter-Regular.ttf in Resources */,
+				189F3BC92837B5B300338EBF /* HappyMonkey-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,10 +489,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181AB7522863B2B6009B6DDC /* SoundTestViewController.swift in Sources */,
+				18308DBD281D8482009D6EAB /* LoginViewController.swift in Sources */,
+				18C0C7FF283B85C300E4130C /* DetailedWordViewCollectionViewCell.swift in Sources */,
 				18317EBE28147DA100834497 /* ViewController.swift in Sources */,
+				18AE15FA28646A4200EFF701 /* SoundViewController.swift in Sources */,
+				187CA216285C582E001C8D96 /* TightButtonsCollectionViewCell.swift in Sources */,
+				18308DC2281D8521009D6EAB /* ResultViewController.swift in Sources */,
+				18E077192826F381003F8350 /* RegularTestViewController.swift in Sources */,
+				182EAFEE283D5EF800CB8B5E /* GrammarViewController.swift in Sources */,
+				18AFDD03284508B400632404 /* WideButtonsCollectionViewCell.swift in Sources */,
+				18AFDCFE2845084400632404 /* TrainingMenuViewController.swift in Sources */,
+				18308DB8281D808E009D6EAB /* EntryViewController.swift in Sources */,
+				187CA21B285C7129001C8D96 /* TabBarController.swift in Sources */,
 				18317EC428147DA100834497 /* Cue.xcdatamodeld in Sources */,
+				18C0C7FA283B84C600E4130C /* DetailedWordViewViewController.swift in Sources */,
 				18317EBA28147DA100834497 /* AppDelegate.swift in Sources */,
+				18C0C7F5283B7A9100E4130C /* VocabularyWordsSetViewController.swift in Sources */,
 				18317EBC28147DA100834497 /* SceneDelegate.swift in Sources */,
+				18B2124C2843FEEA00833DCB /* ProfileViewController.swift in Sources */,
+				182EAFF3283D5F7E00CB8B5E /* GrammarModuleTableViewCell.swift in Sources */,
+				18C0C7F0283B79DE00E4130C /* VocabularyWordsSetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +695,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cueProducts.cue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -499,7 +714,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cueProducts.cue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -629,6 +844,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		181AB74A285F4205009B6DDC /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.0.0;
+			};
+		};
+		181AB7552863B94A009B6DDC /* XCRemoteSwiftPackageReference "voice-overlay-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/algolia/voice-overlay-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
 		1825E16C281C11C70071E6B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -637,9 +868,32 @@
 				minimumVersion = 8.15.0;
 			};
 		};
+		187CA21F285C85F0001C8D96 /* XCRemoteSwiftPackageReference "Hero" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HeroTransitions/Hero.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		181AB74B285F4205009B6DDC /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 181AB74A285F4205009B6DDC /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		181AB74D285F4205009B6DDC /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 181AB74A285F4205009B6DDC /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		181AB7562863B94B009B6DDC /* InstantSearchVoiceOverlay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 181AB7552863B94A009B6DDC /* XCRemoteSwiftPackageReference "voice-overlay-ios" */;
+			productName = InstantSearchVoiceOverlay;
+		};
 		1825E16D281C11C70071E6B6 /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 1825E16C281C11C70071E6B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
@@ -674,6 +928,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1825E16C281C11C70071E6B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		187CA220285C85F0001C8D96 /* Hero */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 187CA21F285C85F0001C8D96 /* XCRemoteSwiftPackageReference "Hero" */;
+			productName = Hero;
 		};
 /* End XCSwiftPackageProductDependency section */
 
